@@ -10,3 +10,6 @@ def test_classificar_imc():
     assert classificar_imc(33.0) == "obesidade grau I"
     assert classificar_imc(37.0) == "obesidade grau II"
     assert classificar_imc(45.0) == "obesidade grau III"
+
+def test_casas():
+   assert calcular_imc(80, 1.80) == round(80 / (1.80 ** 2), 2)
