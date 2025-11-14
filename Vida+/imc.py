@@ -16,4 +16,4 @@ def classificar_imc(imc):
         return "obesidade grau II"
     else:
         return "obesidade grau III"
-calcular_imc(78,0)
+    
